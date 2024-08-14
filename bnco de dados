@@ -1,0 +1,26 @@
+-- create a table
+ CREATE TABLE AGV (
+    nome TEXT NOT NULL,
+    turma TEXT NOT NULL,
+    idade INTEGER PRIMARY KEY,
+    bairro TEXT NOT NULL
+);
+
+-- insert some values
+INSERT INTO AGV VALUES ('Ryan', ' DS', 20, 'Jardim Esperança');
+INSERT INTO AGV VALUES ('Joanna', 'Portos', 18, 'Costeira');
+INSERT INTO AGV VALUES ('Fernando', 'DS', 15, 'Samambaia');
+INSERT INTO AGV VALUES ('Ana', 'ADM', 11, 'Jardim Iguaçu');
+INSERT INTO AGV VALUES ('Pedro', 'DS', 12, 'Costeira');
+INSERT INTO AGV VALUES ('Izael', 'DS', 13, 'Costeira');
+INSERT INTO AGV VALUES ( 'João', 'Portos', 16, 'Vila Guarani');
+INSERT INTO AGV VALUES ('Davi', 'ADM', 14, 'Ilha dos Valadares');
+INSERT INTO AGV VALUES ('Angela' 'ADM', 17, 'Jardim Iguaçu');
+INSERT INTO AGV VALUES ('Danilo', 'Portos', 21, 'Vila São Jorge');
+
+
+-- fetch some values
+SELECT * FROM AGV WHERE idade = 18;
+SELECT * FROM AGV WHERE bairro = 'Costeira';
+SELECT * FROM AGV WHERE turma = 'Portos';
+SELECT * FROM AGV WHERE nome = 'Davi';
