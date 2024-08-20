@@ -7,6 +7,7 @@
 );
 
 -- insert some values
+INSERT INTO AGV VALUES ('Rafael', ' ADM', 19, 'Jardim Iguaçu');
 INSERT INTO AGV VALUES ('Ryan', ' DS', 20, 'Jardim Esperança');
 INSERT INTO AGV VALUES ('Joanna', 'Portos', 18, 'Costeira');
 INSERT INTO AGV VALUES ('Fernando', 'DS', 15, 'Samambaia');
@@ -15,7 +16,6 @@ INSERT INTO AGV VALUES ('Pedro', 'DS', 12, 'Costeira');
 INSERT INTO AGV VALUES ('Izael', 'DS', 13, 'Costeira');
 INSERT INTO AGV VALUES ( 'João', 'Portos', 16, 'Vila Guarani');
 INSERT INTO AGV VALUES ('Davi', 'ADM', 14, 'Ilha dos Valadares');
-INSERT INTO AGV VALUES ('Angela' 'ADM', 17, 'Jardim Iguaçu');
 INSERT INTO AGV VALUES ('Danilo', 'Portos', 21, 'Vila São Jorge');
 
 
